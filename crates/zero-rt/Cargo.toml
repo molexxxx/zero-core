@@ -34,7 +34,7 @@ zero-sys.workspace = true
 # and their dependencies). cargo deny does not see this edge, because no target it
 # evaluates sets the cfg. Its default feature set is empty.
 [target.'cfg(zero_loom)'.dev-dependencies]
-loom = "=0.7.2"
+loom = "=0.7.3"
 
 [lints]
 workspace = true
